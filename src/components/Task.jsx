@@ -11,8 +11,6 @@ const Task = ({ task, handleTaskClick }) => {
       </div>
     </div>
   );
-
-  //return <div className="task-container">{task.title}</div>;
 };
 
 export default Task;
