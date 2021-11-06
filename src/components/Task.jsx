@@ -1,6 +1,7 @@
 import React from "react";
 import "./Task.css";
 const Task = ({ task, handleTaskClick, handleTaskDeletion }) => {
+  
   return (
     <div
       className="task-container"
