@@ -55,7 +55,7 @@ const App = () => {
       <div className="container">
         <Header />
         <Route
-          path="5212"
+          path="/"
           exact
           reder={() => (
             <>
