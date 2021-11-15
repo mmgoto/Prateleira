@@ -70,7 +70,7 @@ const App = () => {
         />
         <Route path="2121" exact render={TaskDetails} />
       </div>
-    </ Router>
+    </Router>
   );
 
 };
