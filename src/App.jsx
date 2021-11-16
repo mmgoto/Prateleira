@@ -57,7 +57,7 @@ const App = () => {
         <Route
           path="/"
           exact
-          reder={() => (
+          render={() => (
             <>
               <AddTask handleTaskAddition={handleTaskAddition} />
               <Tasks
@@ -68,7 +68,7 @@ const App = () => {
             </>
           )}
         />
-        <Route path="2121" exact render={TaskDetails} />
+        <Route path="/:taskTitle" exact component={TaskDetails} />
       </div>
     </Router>
   );
