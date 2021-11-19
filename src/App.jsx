@@ -11,7 +11,6 @@ import TaskDetails from "./components/TaskDetails";
 import "./App.css";
 
 const App = () => {
-  // let message = 'Hello, Woorld!!!!'
   const [tasks, setTasks] = useState([
     {
       id: "1",
